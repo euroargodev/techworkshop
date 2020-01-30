@@ -18,3 +18,5 @@ The workshop conveners include the following people:
 - Blair GREENAN (DFO-MPO, Canada)
 - Antoine POTEAU (LOV, France)
 - Guillaume MAZE (Ifremer, France)
+
+![Group Picture](Group_picture_banner_light.jpg)
