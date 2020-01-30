@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Arvor/Provor floats technical workshop
 
 You can use the [editor on GitHub](https://github.com/euroargodev/techworkshop/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
