@@ -3,41 +3,46 @@ layout: home-page
 ---
 <div class="flex-container">
     <article class="article-page">
+      <p class="subtitle">Objectives</p>
       The aim of this workshop was to provide Arvor-Provor Argo float users with extensive technical information and to share best practices. The workshop is being organized by Argo-Canada and Argo-France and will take place at Ifremer in Brest, France on 28 to 30 January 2020.
 
       At the end of the meeting, the attendees should:
-      - Understand the Arvor-Provor float technology and the different existing float types;
-      - Have information on the planned upgrades and be able to provide insight on their priorities;
-      - Have an overview of some ongoing projects using Arvor & Provor profiling floats;
-      - Understand the suggested pre-deployment procedures and how a float can be deployed, thanks to the hands-on at the test pool;
-      - Understand the mandatory information needed for a float to be registered at JCOMMOPS and processed by a DAC;
-      - Have better knowledge of the tools provided at JCOMMOPS, Coriolis GDAC and DAC.
+      <ul>
+        <li>Understand the Arvor-Provor float technology and the different existing float types;</li>
+        <li>Have information on the planned upgrades and be able to provide insight on their priorities;</li>
+        <li>Have an overview of some ongoing projects using Arvor & Provor profiling floats;</li>
+        <li>Understand the suggested pre-deployment procedures and how a float can be deployed, thanks to the hands-on at the test pool;</li>
+        <li>Understand the mandatory information needed for a float to be registered at JCOMMOPS and processed by a DAC;</li>
+        <li>Have better knowledge of the tools provided at JCOMMOPS, Coriolis GDAC and DAC.</li>
+      </ul>
 
-      *Organizing Committee*
+      <p class="subtitle">Organizing Committee</p>
       The workshop conveners include the following people:
+      <ul>
+        <li>Noé POFFA (Ifremer, France)</li>
+        <li>Blair GREENAN (DFO-MPO, Canada)</li>
+        <li>Antoine POTEAU (LOV, France)</li>
+        <li>Guillaume MAZE (Ifremer, France)</li>
+      </ul>
+      ![Group]({{site.baseurl}}/assets/img/Group_picture_banner_light.jpg)
 
-      - Noé POFFA (Ifremer, France)
-      - Blair GREENAN (DFO-MPO, Canada)
-      - Antoine POTEAU (LOV, France)
-      - Guillaume MAZE (Ifremer, France)
+      <ol class="post-card-box clearfix">
+        {% for post in paginator.posts %}
+        <li>
+          <div class="post-card">
+            <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+            </a>
+
+            <div class="post-card-body">
+              {% for tag in post.tags %}
+              <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
+              {% endfor %}
+              <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
+            </div>
+
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
     </article>
 </div>
-
-  <ol class="post-card-box clearfix">
-    {% for post in paginator.posts %}
-    <li>
-      <div class="post-card">
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
-        </a>
-
-        <div class="post-card-body">
-          {% for tag in post.tags %}
-          <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>
-          {% endfor %}
-          <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
-        </div>
-
-      </div>
-    </li>
-    {% endfor %}
-  </ol>
