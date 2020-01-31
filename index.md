@@ -19,4 +19,4 @@ The workshop conveners include the following people:
 - Antoine POTEAU (LOV, France)
 - Guillaume MAZE (Ifremer, France)
 
-![Group Picture](Group_picture_banner_light.jpg)
+![Group Picture](assets/img/Group_picture_banner_light.jpg)
