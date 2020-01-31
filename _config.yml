@@ -3,8 +3,8 @@ email: gmaze@ifremer.fr
 description: > # this means to ignore newlines until "baseurl:"
   Summary, recommendations and materials from the 2020 Arvor/Provor float technical workshop
 permalink: ':title/'
-baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://euroargodev.github.io/techworkshop" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Guillaume Maze # add your name
