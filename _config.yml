@@ -1,1 +1,3 @@
-theme: jekyll-theme-cayman
+name: 2020 Arvor/Provor float technical workshop
+markdown: kramdown
+remote_theme: adam-blog
