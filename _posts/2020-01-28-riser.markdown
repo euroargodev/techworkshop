@@ -4,7 +4,7 @@ title: Previous Argo Workshops: Results and Recommendations
 date: 2020-01-28
 img: 01_Stephen_Riser.jpg # Add image post (optional)
 tags: [legacy, recommendations]
-author: Stephen Riser # Add name author (optional)
+author: Stephen Riser
 ---
 
 Access to slides here
