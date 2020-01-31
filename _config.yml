@@ -7,7 +7,7 @@ baseurl: "/techworkshop" # the subpath of your site, e.g. /blog
 url: "https://euroargodev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: Guillaume Maze # add your name
+author: 2020 Arvor/Provor float technical workshop # add your name
 #author-pic: adam-face.jpg
 #about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
 
