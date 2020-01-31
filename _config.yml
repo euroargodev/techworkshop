@@ -26,13 +26,13 @@ twitter: '@mazeguillaume' # Add your Twitter handle
 #mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+#discus_identifier: mr-brown # Add your discus identifier
 
 # Tracker
 #analytics: # Google Analytics
 
 # Paginate
-paginate: 6
+paginate: 2
 paginate_path: /page:num/
 
 # Build settings
