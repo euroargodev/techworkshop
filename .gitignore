@@ -1,3 +1,5 @@
-# PyCharm stuff
+#
+\.jekyll-cache
+\_site/
 \.idea/
 \.ipynb_checkpoints/

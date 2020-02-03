@@ -32,7 +32,7 @@ twitter: '@mazeguillaume' # Add your Twitter handle
 #analytics: # Google Analytics
 
 # Paginate
-paginate: 2
+paginate: 20
 paginate_path: /page:num/
 
 # Build settings

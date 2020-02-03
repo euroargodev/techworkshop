@@ -910,6 +910,10 @@ pre code {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url("/techworkshop/assets/img/Logo_banner_notitle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain
 }
 
 .main-header .logo {
@@ -1225,6 +1229,12 @@ pre code {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
+  font-weight: 300;
+}
+
+.header-page .page-subdate {
+  text-align: center;
+  font-size: 14px;
   font-weight: 300;
 }
 
