@@ -6,7 +6,10 @@ img: Group_picture_banner_light.jpg # Add image post (optional)
 <div class="flex-container">
     <article class="article-page">
       <section class="about-header">
-        <p class="subtitle highlight" style="font-weight:bold">Summary, recommendations and materials from the 2020 workshop</p>
+        <p class="subtitle highlight" style="font-weight:bold"><a href="summary">Summary</a>, <a href="recommendations">recommendations</a> and materials (<a href="talks">talks</a>, <a href="posters">posters</a>)</p>
+      </section>
+      <section class="about-header">
+        <img src="assets/img/Sunrise.jpg" width="50%">
       </section>
       <section class="about-body">
         <p class="subtitle highlight">Objectives of the workshop</p>
@@ -25,13 +28,8 @@ img: Group_picture_banner_light.jpg # Add image post (optional)
 
       <section class="about-body">
         <p class="subtitle highlight">Organizing Committee</p>
-        The workshop conveners included the following people:
-        <ul>
-          <li>Noé POFFA (Ifremer, France)</li>
-          <li>Blair GREENAN (DFO-MPO, Canada)</li>
-          <li>Antoine POTEAU (LOV, France)</li>
-          <li>Guillaume MAZE (Ifremer, France)</li>
-        </ul>
+            {% include committee.html %}
+
       </section>
 
       <ol class="post-card-box clearfix">
