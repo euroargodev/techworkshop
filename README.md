@@ -1,5 +1,11 @@
 # 2020 Arvor/Provor floats technical workshop
 
+## Direct access to material
+
+- [Short PDF report](https://github.com/euroargodev/techworkshop/tree/gh-pages/assets/2020_Arvor_Provor_float_technical_workshop_report.pdf)
+- [Posters](https://github.com/euroargodev/techworkshop/tree/gh-pages/assets/posters)
+- [Talks](https://github.com/euroargodev/techworkshop/tree/gh-pages/assets/slides)
+
 ## Aims of the workshop
 The aim of this workshop was to provide Arvor-Provor Argo float users with extensive technical information and to share best practices. The workshop is being organized by Argo-Canada and Argo-France and will take place at Ifremer in Brest, France on 28 to 30 January 2020.
 
